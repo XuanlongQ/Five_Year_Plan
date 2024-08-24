@@ -1,3 +1,12 @@
+# -*- encoding: utf-8 -*-
+'''
+@file: Clustering.py
+@Author: Xuanlong
+@email: qxlpku@gmail.com
+''' 
+
+# This file is used to cluster the cities based on the document embeddings
+
 import os
 import numpy as np
 import pandas as pd

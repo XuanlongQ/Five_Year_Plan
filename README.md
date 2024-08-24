@@ -12,7 +12,9 @@ This work use computational approaches to relicate Xu and Heikkila's paper
 1. Doc2vec_model_training.py - Training Doc2vec model and get Doc2vec embeddings
 2. Clustering.py - Using Doc2vec embeddings to conduct KMeans clustering
 
+Note: Please remove the test.bin and all_docfiles.docx, which are placeholder Files.
+
 
 ## Acknowledge
-This replicated work was leaded by Prof. Eric j. Heikkila, Prof. Ling Zhu, and Prof. Ying XU.
-The team members include Xuanlong QIN and Ruihui TIAN.
+- This replicated work was leaded by Prof. Eric j. Heikkila, Prof. Ling Zhu, and Prof. Ying XU.
+- The team members include Xuanlong QIN and Ruihui TIAN.

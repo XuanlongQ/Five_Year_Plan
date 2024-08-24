@@ -2,7 +2,7 @@
 '''
 @file: Doc2vec_model_training.py
 @Author: Xuanlong
-@emaial: qxlpku@gmail.com
+@email: qxlpku@gmail.com
 ''' 
 
 # This file is used to train the Doc2Vec model on the 12th Five Year Plan documents
