@@ -1,7 +1,7 @@
 # Five_Year_Plan
 
 ## Main Work
-This work use computational approaches to relicate Xu and Heikkila's paper
+This work use computational approaches to replicate Xu and Heikkila's paper
 - [How can cities learn from each other? Evidence from China's five-year plans](https://www.sciencedirect.com/science/article/pii/S2226585620300856)
 
 
@@ -17,4 +17,4 @@ Note: Please remove the test.bin and all_docfiles.docx, which are placeholder Fi
 
 ## Acknowledge
 - This replicated work was leaded by Prof. Eric j. Heikkila, Prof. Ling Zhu, and Prof. Ying XU.
-- The team members include Xuanlong QIN and Ruihui TIAN.
+- The team members include Xuanlong QIN and Runhui TIAN.

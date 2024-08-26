@@ -71,9 +71,11 @@ def getFiles(input_directory):
     return files
 
 def append_to_dataframe(tag,document_vec): 
+    
+    pklPath = 'Five_Year_Plan/bin/doc/Doc2vec_Models/tag_document_vecs_100v.pkl'
     try:
         # Load the existing DataFrame
-        df = pd.read_pickle('Five_Year_Plan/bin/doc/Doc2vec_Models/tag_document_vecs_100v.pkl')
+        df = pd.read_pickle(pklPath)
     except FileNotFoundError:
         df = pd.DataFrame(columns=['cities','dimension'])
 
@@ -84,11 +86,11 @@ def append_to_dataframe(tag,document_vec):
     df = pd.concat([df, new_row], ignore_index=True)
     
     # Save the updated DataFrame
-    df.to_pickle('Five_Year_Plan/bin/doc/Doc2vec_Models/tag_document_vecs_100v.pkl')
+    df.to_pickle(pklPath)
 
 if __name__ == "__main__":
     # the input directory, you could get the docx files from the following link,
-    input_directory = "Five_Year_Plan/bin/doc/12th_fyp_all_2"
+    input_directory = "Five_Year_Plan/bin/doc/12th_fyp_all"
     
     # Models will be saved in the following directory
     Doc2Vec_ModelPath = "Five_Year_Plan/bin/doc/Doc2vec_Models/5yrPlans_model_100v.bin"
