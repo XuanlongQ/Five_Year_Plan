@@ -1,3 +1,9 @@
+# -*- encoding: utf-8 -*-
+'''
+@file: Global algorithm for matching clusters.py
+@Author: Xuanlong
+@email: qxlpku@gmail.com
+''' 
 def global_chi_square_matching(chi_square_matrix):
     import heapq
 
